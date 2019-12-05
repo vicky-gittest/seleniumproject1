@@ -47,4 +47,10 @@ public class HomePageObjects extends BaseClass {
 	
 	
 	
+    public boolean istShirtPageTabPresent1()
+
+    {
+    	return elementFound(tShirtPageTab);
+    }
+	
 }
